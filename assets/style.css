@@ -1,0 +1,112 @@
+/* Stylesheet for Jacobus Landing Page */
+/* The wildcard selector adds styling to all elements */
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 0% ;
+    margin: 0%;
+}
+
+/*This div container captures the header and the nav bar*/
+div.container{
+    position: relative;
+    top: 0;
+    color: antiquewhite;
+    background-color: #1b75be;
+    font-size: 18px;
+    padding: 1px;
+    margin: 0%;
+}
+
+header{
+        
+}
+
+/* This is for "Welcome to My Landing Page */
+h1 {
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+}
+
+/* These two make my nav bar align to the right, and 50pixels from the top. 
+My Listed items are inline so they are all next to each other instead of on top of each other.
+The margin right, keeps space from the edge of the page, as well as from the other items. */
+header ul{
+    text-align: right;
+    line-height: 50px;
+}
+
+header ul li{
+    display: inline;
+    margin-right: 25px;  
+}
+
+header ul li a{
+    color: antiquewhite;
+}
+
+div.gap{
+    padding: 5px;
+    background-color: rgb(238, 109, 49);
+}
+
+div.projects{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    padding: 0%;
+    margin: 0%;
+    height: 50px;
+    width: 100%;
+}
+
+/* A container for the landpage-image and it's caption*/
+
+figure.projectsnip1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+img {
+   
+}
+
+figcaption {
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(238, 109, 49);
+    border: 1px solid black;
+}
+
+h2 {
+
+}
+
+div.inputs {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #1b75be;
+    border: 1px solid black;
+}
